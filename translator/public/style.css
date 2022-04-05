@@ -1,0 +1,45 @@
+.card-body {
+   padding: 0;
+}
+
+textarea.card-text {
+   width: 100%;
+   border: none;
+   resize: none;
+}
+
+textarea::placeholder{
+    font-size:16px
+}
+
+textarea.card-text:read-only {
+  background-color: #fff;
+  cursor: default;
+}
+
+.form-check {
+  display: inline-block;
+  text-align: center;
+  padding: 1rem 4.2rem 1rem 4.2rem;
+}
+
+.form-check-label {
+    font-size: 1.5rem;
+}
+
+.card-header {
+    font-size: 1.7rem;
+}
+
+.display-41 {
+    font-size: 3rem;
+}
+
+.display-42 {
+    font-size: 3rem;
+    margin-top: 110px;
+}
+
+#submit-btn:hover {
+    color: #fff;
+}
